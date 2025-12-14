@@ -15,7 +15,7 @@
             border: 1px solid rgb(120, 120, 120);
             
         }
-        #titolo,#autore,#data,#corpo,#genera{
+        #titolo,#autore,#data,#corpo,#genera,#stampa{
             padding: 10px;
             display: flex;
             flex-direction: column;
@@ -67,7 +67,7 @@
        <input type="date" id="data">
        <textarea id="corpo" rows="4" cols="60" placeholder="inserisci testo qui..."></textarea>
        <button id="genera">Genera Articolo</button>
-       <button onclick="window.print()">Stampa Pagina</button>
+       <button id="stampa" onclick="window.print()">Stampa Pagina</button>
     </div>
     <div id="article" class="area-stampa">   </div>
 
